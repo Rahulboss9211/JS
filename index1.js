@@ -98,7 +98,7 @@ Delivery(50).then(result => console.log(result)).catch(error => console.log((err
 
 const fetchData = async () => {
   try {
-   let data = await fetch("https://dummyjson.com/postss")
+   let data = await fetch("https://dummyjson.com/posts")
     let res = data.json();
  console.log(res);
  
